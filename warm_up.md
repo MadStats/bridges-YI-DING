@@ -12,13 +12,14 @@ WI16=read.csv(link_WI16,colClasses = "character",sep=",")
 ##create the 5-digits FIPS code
 WI16$FIPS=paste0(WI16$STATE_CODE_001,WI16$COUNTY_CODE_003)
 
-attach(WI16)
+
 
 
 
 
 
 ##combine bridge ID, year, fips codes, condition ratings
+attach(WI16)
 WI16_required=cbind(
 STRUCTURE_NUMBER_008,
 YEAR_BUILT_027,
