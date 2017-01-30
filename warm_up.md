@@ -13,7 +13,7 @@ CHANNEL_COND_061,CULVERT_COND_062,OPERATING_RATING_064,INVENTORY_RATING_066)
 
 WI16_mine=cbind(TOTAL_IMP_COST_096,STRUCTURE_LEN_MT_049,TOLL_020)
 
-#total cost,bridge length,toll
+##total cost,bridge length,toll
 
 output=as.data.frame(cbind(WI16_required,WI16_mine))
 
