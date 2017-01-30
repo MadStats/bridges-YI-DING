@@ -4,7 +4,7 @@
 
 
 
-##DOwnload the data
+##Download the data
 link_WI16="https://www.fhwa.dot.gov/bridge/nbi/2016/delimited/WI16.txt"
 
 WI16=read.csv(link_WI16,colClasses = "character",sep=",")
