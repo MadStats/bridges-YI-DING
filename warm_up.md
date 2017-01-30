@@ -1,6 +1,5 @@
 
-##These codes are generic.
-###Simply replace the '2016'and'WI16.txt' in the first line with the year or state you want.
+#These codes are generic. Simply replace the '2016'and'WI16.txt' in the first line with the year or state you want.
 
 
 
